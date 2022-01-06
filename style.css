@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2.h3 {
+    line-height: 0.8;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* Focused section */
+.color-text {
+    color: #115195;
+}
+
+.focused-area {
+    display: flex;
+    margin: 0 5%;
+    margin-bottom: 100px;
+    /* align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 150px; */
+}
+
+.side-line {
+    border-left: 4px solid #352384;
+    padding-left: 10px;
+    line-height: 0.8;
+    font-family: 'Playfair Display', serif;
+}
+
+.focused-left {
+    width: 60%;
+}
+
+.focused-right img {
+    width: 420px;
+    padding-left: 55px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(#115195, #115248);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* mission section */
+.second-color-text {
+    color: #352384;
+}
+
+.mission {
+    /* width: 90%;
+    margin: 0 auto;
+    margin-bottom: 120px;*/
+    text-align: center;
+    margin: 0 5%;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexible-card img {
+    width: 100px;
+}
+
+.flexible-card {
+    width: 28%;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.first-card-body {
+    background-color: rgba(85, 13, 49, 0.123);
+}
+
+.second-card-body {
+    background-color: rgba(3, 50, 94, 0.13);
+}
+
+.third-card-body {
+    background-color: rgba(51, 73, 31, 0.123);
+}
+
+/* devlop-area section */
+.devlop-area {
+    display: flex;
+    margin: 0 5%;
+    margin-bottom: 100px;
+    /* align-items: center; */
+}
+
+.devlop-right {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.devlop-photo img {
+    width: 420px;
+}
+
+/* comunity-area section */
+.comunity-area {
+    display: flex;
+    margin: 0 5%;
+    margin-bottom: 100px;
+}
+
+.comunity-left {
+    text-align: justify;
+    width: 60%;
+    padding-right: 60px;
+}
+
+.comunity-right img {
+    width: 420px;
+}
+
+/*cover background  section*/
+.cover-background {
+    background-image: url('images/call-to-action-bg.jpg');
+    height: 250px;
+    width: 100%;
+    position: relative;
+    transition: all 0.1s ease;
+    z-index: 1;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.text-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.background-text {
+    color: #fff;
+    font-size: 30px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* footer section */
+.footer-background {
+    background-color: rgb(4 32 33);
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.mission-year-color {
+    color: #368921;
+}
+
+.footer-pragraph-color {
+    color: darkgray;
+    font-size: 15px;
+}
