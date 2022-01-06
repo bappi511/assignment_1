@@ -135,7 +135,7 @@ h2 {
 
 /*cover background  section*/
 .cover-background {
-    background-image: url('images/call-to-action-bg.jpg');
+    background-image: url(images/cover.jpg);
     height: 250px;
     width: 100%;
     position: relative;
